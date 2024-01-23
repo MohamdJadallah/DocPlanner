@@ -1,0 +1,425 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    5. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    6. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    7. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    8. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  :root{
+    font-size: 10px;
+  }
+    
+  a{
+    text-decoration: none;
+  }
+
+  .center{
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flex{
+    display: flex;
+
+  }
+ .list-style{
+    list-style: none;
+    
+ }
+
+ .imglogo{
+    width: 28rem;
+    height: 4rem;
+ }
+
+ .navgrab{
+
+    
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    
+    
+
+ }
+ .ulfontsize{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+ }
+
+ .lihover{
+    color: gray;
+ }
+
+.lihover:hover{
+    color: #00b39b;
+    
+}
+
+
+.ulclass{
+    width: 35rem;
+    justify-content: space-evenly;
+}
+
+.imgicon{
+    width: 5rem;
+    margin-bottom: -2rem;
+}
+
+.icon{
+    margin-top: 7rem;
+    width: 112rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.parag{
+    width: 70rem;
+    gap: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: gray;
+}
+
+.h1deco{
+    font-size: 3.3rem;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #00b39b;
+
+}
+
+.cards{
+
+    width: 95rem;
+    margin-top: 5rem;
+
+
+}
+.card{
+    padding: 3rem;
+    
+    width: 30rem;
+    height: 34rem;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 1rem;
+    
+
+
+}
+.card1{
+    background-color: #00b39b;
+}
+.card2{
+    background-color: blue;
+}
+.card3{
+    background-color: black;
+    
+}
+.cardh1{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 550;
+    font-size: 3.8rem;
+    color: white;
+
+
+}
+.cardp{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 2.1rem;
+    color: white;
+}
+
+.cardicon{
+    width: 2.5rem;
+
+}
+
+.selectbutton{
+    width: 18rem;
+    margin-top: 5rem;
+    background-color: inherit;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 2.1rem;
+    color: white;
+   border-style: none;
+
+}
+.select3{
+    margin-top: .7rem;
+
+}
+
+.select31{
+    width: 24.5rem;
+}
+
+.mid{
+    width: 95rem;
+    margin-top: 3rem;
+    justify-content:space-around;
+    
+}
+
+.h1mid{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 2.3rem;
+    color: #00b39b;
+    width: 25rem;
+}
+
+.sponsorsgrid{
+    display: grid;
+    grid-template-rows: repeat(4, 7rem);
+    grid-template-columns: repeat(3, 12rem);
+}
+.sponsors{
+    width: 8rem;
+}
+
+.h1midmid{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    color: #00b39b;
+    width: 50%;
+   
+    
+
+}
+
+.midmid{
+   
+    height: 100vh;
+    background-color:#d0faf4;
+    justify-content: space-around;
+    padding: 0 10rem;
+
+
+    
+}
+.pmidmid{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: gray;
+    width: 80%;
+    
+
+}
+
+.logocropped{
+    margin-top: 2rem;
+}
+
+.left{
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    gap: 3rem;
+}
+.minicards{
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.minicard{
+    width: 22rem;
+    height: 24rem;
+    background-color: white;
+    
+}
+.half{
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.half2{
+    margin-top: -5rem;
+}
+
+.gg{
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.h1midmidl{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: #00b39b;
+}
+
+.cardcard{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    color: gray;
+}
+.proboto{
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    color: gray;
+    margin-top: 3rem;
+    width: 37%;
+    margin-bottom: 5rem;
+
+}
+
+.midend{
+    flex-direction: column;
+    margin-top: 10rem;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.end{
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;    
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.button1{
+    background-color: #3d83df;
+    padding: 1rem 1.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    border: none;
+
+}
+
+.whole{
+    flex-direction: column;
+}
+
+.last{
+    justify-content: space-between;
+    padding: 2rem 2rem 0 2rem;
+    align-items: center;
+}
+
+.pcity{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+    color: gray;
+}
+.whole:hover{
+    box-shadow: .3rem .3rem .3rem .3rem #dedede
+}
+
+.h1endend{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.endlast{
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+.buttonlast{
+    
+    margin-top: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding: 1.5rem 3rem;
+    border: none;
+    background-color: #3d83df;
+    color: white;
+    margin-bottom: 5rem;
+    text-align: center;
+    border-radius: .5rem;
+    
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+a{
+    color: blue;
+}
+
+.thelast{
+    margin: 1rem 0;
+}
+.thelastlast{
+    margin-bottom: 1rem;
+}
